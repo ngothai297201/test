@@ -9,22 +9,19 @@ This Magento 2.3.5
 * Please run there commands:
 ```
 git clone https://github.com/datwiki/dulcefina
-
 ````
 
-* copy both file config.php and env.php form old ondemand to app/etc
+* copy both file config.php and env.php form old dulcefina/wholesale to app/etc
 
 run CLI
+````
  + php bin/magento setup:upgrade
  + php bin/magento setup:di:compile
  + php bin/magento setup:static-content:deploy -f 
  + php bin/magento cache:flush
  + php bin/magento cache:clean config
-
-````
 ````
 * copy file pub/media form old ondemand to pub/media
-````
 
 ## Note fix error when add module Shippo and Warehouse Email
 
