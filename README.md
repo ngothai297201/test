@@ -10,9 +10,10 @@ This Magento 2.3.5
 ```
 git clone https://github.com/datwiki/dulcefina
 
+````
 
 * copy both file config.php and env.php form old ondemand to app/etc
-````
+
 run CLI
  + php bin/magento setup:upgrade
  + php bin/magento setup:di:compile
